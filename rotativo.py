@@ -64,14 +64,3 @@ class Rotativo:
         self.actual = _min          # establece el valor actual en el mínimo
         self.maximo = _max       # guarda el valor máximo deseado
         self.incremento = _incr   # guarda el incremento deseado por paso del rotativo.
-
-'''Ejemplo de uso:
-
-rot = ROTATIVO(_clk=2,_dt=4,_min=0,_max=10,_incr=0.5)
-
-ultimo = rot.valor #valor de comparación
-while True:
-    if rot.valor != ultimo: #hubo 1 cambio
-        print(rot.valor)
-        ultimo = rot.valor # actualización del valor de comparación'''
-            
